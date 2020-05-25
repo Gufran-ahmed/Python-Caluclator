@@ -20,7 +20,7 @@ def equalOp():
 
 calculator = Tk()
 calculator.title('Calculator')
-calculator.geometry("285x300")
+calculator.geometry("300x330")
 displayNumber = ""
 text_input = StringVar()
 display = Entry(calculator, font=('sans serif', 18), textvariable=text_input, bd=10,
